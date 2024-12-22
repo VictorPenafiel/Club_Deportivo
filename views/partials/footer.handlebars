@@ -1,0 +1,90 @@
+<footer class="footer">
+  <p>Administrador de tareas 2024</p>
+</footer>
+
+{{!-- <!-- Modal Editar Tarea-->
+<div class="modal fade" id="editarModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="titleModal">Editar tarea</h5>
+        <button type="button" class="btn-close color-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Título</label>
+            <input type="text" class="form-control" name="name" id="titulo">
+          </div>
+          <div class="mb-3">
+            <label for="descripcion" class="form-label">Descripción</label>
+            <textarea class="form-control" name="descripcion" id="descripcion" rows="3"></textarea>
+          </div>
+          <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-warning actualizarTarea">Guardar</button>
+          </div>
+
+        </form>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Agregar tarea-->
+<div class="modal fade" id="modalAddTarea" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="titleModal">Nueva tarea</h5>
+        <button type="button" class="btn-close color-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Título</label>
+            <input type="text" class="form-control" name="name" id="tituloAdd">
+          </div>
+          <div class="mb-3">
+            <label for="descripcion" class="form-label">Descripción</label>
+            <textarea class="form-control" name="descripcion" id="descripcionAdd" rows="3"></textarea>
+          </div>
+          <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-warning addTarea">Guardar</button>
+          </div>
+
+        </form>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Mensaje Eliminar Modal-->
+<div class="modal fade" id="modalEliminar" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close color-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h5 class="modal-title text-center my-3" id="titleModal">Estas seguro eliminar la tarea!!</h5>
+        <form>
+          <div class="mb-3">
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-danger" id="deleteTask"><i
+                  class="fa-solid fa-trash-can me-1"></i>Borrar</button>
+            </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div> --}}
